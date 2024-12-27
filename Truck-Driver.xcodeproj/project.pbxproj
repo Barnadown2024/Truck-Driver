@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		34BDB7C12D1F03FD000C71E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34BDB7A82D1F03FC000C71E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34BDB7AF2D1F03FC000C71E9;
+			remoteInfo = "Truck-Driver";
+		};
+		34BDB7CB2D1F03FD000C71E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34BDB7A82D1F03FC000C71E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34BDB7AF2D1F03FC000C71E9;
+			remoteInfo = "Truck-Driver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34BDB7B02D1F03FC000C71E9 /* Truck-Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Truck-Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34BDB7C02D1F03FD000C71E9 /* Truck-DriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Truck-DriverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34BDB7CA2D1F03FD000C71E9 /* Truck-DriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Truck-DriverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		34BDB7B22D1F03FC000C71E9 /* Truck-Driver */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Truck-Driver";
+			sourceTree = "<group>";
+		};
+		34BDB7C32D1F03FD000C71E9 /* Truck-DriverTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Truck-DriverTests";
+			sourceTree = "<group>";
+		};
+		34BDB7CD2D1F03FD000C71E9 /* Truck-DriverUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Truck-DriverUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34BDB7AD2D1F03FC000C71E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BDB7BD2D1F03FD000C71E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BDB7C72D1F03FD000C71E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34BDB7A72D1F03FC000C71E9 = {
+			isa = PBXGroup;
+			children = (
+				34BDB7B22D1F03FC000C71E9 /* Truck-Driver */,
+				34BDB7C32D1F03FD000C71E9 /* Truck-DriverTests */,
+				34BDB7CD2D1F03FD000C71E9 /* Truck-DriverUITests */,
+				34BDB7B12D1F03FC000C71E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34BDB7B12D1F03FC000C71E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34BDB7B02D1F03FC000C71E9 /* Truck-Driver.app */,
+				34BDB7C02D1F03FD000C71E9 /* Truck-DriverTests.xctest */,
+				34BDB7CA2D1F03FD000C71E9 /* Truck-DriverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34BDB7AF2D1F03FC000C71E9 /* Truck-Driver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34BDB7D42D1F03FD000C71E9 /* Build configuration list for PBXNativeTarget "Truck-Driver" */;
+			buildPhases = (
+				34BDB7AC2D1F03FC000C71E9 /* Sources */,
+				34BDB7AD2D1F03FC000C71E9 /* Frameworks */,
+				34BDB7AE2D1F03FC000C71E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				34BDB7B22D1F03FC000C71E9 /* Truck-Driver */,
+			);
+			name = "Truck-Driver";
+			packageProductDependencies = (
+			);
+			productName = "Truck-Driver";
+			productReference = 34BDB7B02D1F03FC000C71E9 /* Truck-Driver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34BDB7BF2D1F03FD000C71E9 /* Truck-DriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34BDB7D72D1F03FD000C71E9 /* Build configuration list for PBXNativeTarget "Truck-DriverTests" */;
+			buildPhases = (
+				34BDB7BC2D1F03FD000C71E9 /* Sources */,
+				34BDB7BD2D1F03FD000C71E9 /* Frameworks */,
+				34BDB7BE2D1F03FD000C71E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34BDB7C22D1F03FD000C71E9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				34BDB7C32D1F03FD000C71E9 /* Truck-DriverTests */,
+			);
+			name = "Truck-DriverTests";
+			packageProductDependencies = (
+			);
+			productName = "Truck-DriverTests";
+			productReference = 34BDB7C02D1F03FD000C71E9 /* Truck-DriverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34BDB7C92D1F03FD000C71E9 /* Truck-DriverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34BDB7DA2D1F03FD000C71E9 /* Build configuration list for PBXNativeTarget "Truck-DriverUITests" */;
+			buildPhases = (
+				34BDB7C62D1F03FD000C71E9 /* Sources */,
+				34BDB7C72D1F03FD000C71E9 /* Frameworks */,
+				34BDB7C82D1F03FD000C71E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34BDB7CC2D1F03FD000C71E9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				34BDB7CD2D1F03FD000C71E9 /* Truck-DriverUITests */,
+			);
+			name = "Truck-DriverUITests";
+			packageProductDependencies = (
+			);
+			productName = "Truck-DriverUITests";
+			productReference = 34BDB7CA2D1F03FD000C71E9 /* Truck-DriverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34BDB7A82D1F03FC000C71E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					34BDB7AF2D1F03FC000C71E9 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					34BDB7BF2D1F03FD000C71E9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 34BDB7AF2D1F03FC000C71E9;
+					};
+					34BDB7C92D1F03FD000C71E9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 34BDB7AF2D1F03FC000C71E9;
+					};
+				};
+			};
+			buildConfigurationList = 34BDB7AB2D1F03FC000C71E9 /* Build configuration list for PBXProject "Truck-Driver" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34BDB7A72D1F03FC000C71E9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 34BDB7B12D1F03FC000C71E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34BDB7AF2D1F03FC000C71E9 /* Truck-Driver */,
+				34BDB7BF2D1F03FD000C71E9 /* Truck-DriverTests */,
+				34BDB7C92D1F03FD000C71E9 /* Truck-DriverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34BDB7AE2D1F03FC000C71E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BDB7BE2D1F03FD000C71E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BDB7C82D1F03FD000C71E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34BDB7AC2D1F03FC000C71E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BDB7BC2D1F03FD000C71E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BDB7C62D1F03FD000C71E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34BDB7C22D1F03FD000C71E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34BDB7AF2D1F03FC000C71E9 /* Truck-Driver */;
+			targetProxy = 34BDB7C12D1F03FD000C71E9 /* PBXContainerItemProxy */;
+		};
+		34BDB7CC2D1F03FD000C71E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34BDB7AF2D1F03FC000C71E9 /* Truck-Driver */;
+			targetProxy = 34BDB7CB2D1F03FD000C71E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34BDB7D22D1F03FD000C71E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34BDB7D32D1F03FD000C71E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34BDB7D52D1F03FD000C71E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Truck-Driver/Preview Content\"";
+				DEVELOPMENT_TEAM = V955UP3Y27;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.truckerselite.Truck-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34BDB7D62D1F03FD000C71E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Truck-Driver/Preview Content\"";
+				DEVELOPMENT_TEAM = V955UP3Y27;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.truckerselite.Truck-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34BDB7D82D1F03FD000C71E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V955UP3Y27;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.truckerselite.Truck-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Truck-Driver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Truck-Driver";
+			};
+			name = Debug;
+		};
+		34BDB7D92D1F03FD000C71E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V955UP3Y27;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.truckerselite.Truck-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Truck-Driver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Truck-Driver";
+			};
+			name = Release;
+		};
+		34BDB7DB2D1F03FD000C71E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V955UP3Y27;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.truckerselite.Truck-DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Truck-Driver";
+			};
+			name = Debug;
+		};
+		34BDB7DC2D1F03FD000C71E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V955UP3Y27;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.truckerselite.Truck-DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Truck-Driver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34BDB7AB2D1F03FC000C71E9 /* Build configuration list for PBXProject "Truck-Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BDB7D22D1F03FD000C71E9 /* Debug */,
+				34BDB7D32D1F03FD000C71E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34BDB7D42D1F03FD000C71E9 /* Build configuration list for PBXNativeTarget "Truck-Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BDB7D52D1F03FD000C71E9 /* Debug */,
+				34BDB7D62D1F03FD000C71E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34BDB7D72D1F03FD000C71E9 /* Build configuration list for PBXNativeTarget "Truck-DriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BDB7D82D1F03FD000C71E9 /* Debug */,
+				34BDB7D92D1F03FD000C71E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34BDB7DA2D1F03FD000C71E9 /* Build configuration list for PBXNativeTarget "Truck-DriverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BDB7DB2D1F03FD000C71E9 /* Debug */,
+				34BDB7DC2D1F03FD000C71E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34BDB7A82D1F03FC000C71E9 /* Project object */;
+}
